@@ -1,0 +1,54 @@
+\begin{thebibliography}{10}
+
+\bibitem{akyildiz2002}
+I.~Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci, ``Wireless sensor
+  networks: a survey,'' {\em Computer Networks}, vol.~38, pp.~393--422, 3 2002.
+
+\bibitem{chlamtac2003}
+I.~Chlamtac, M.~Conti, and J.~J.-N. Liu, ``Mobile ad hoc networking:
+  imperatives and challenges,'' {\em Ad Hoc Networks}, vol.~1, pp.~13--64, 7
+  2003.
+
+\bibitem{gardner2013}
+P.~Gardner-Stephen, R.~Challans, J.~Lakeman, A.~Bettison, D.~Gardner-Stephen,
+  and M.~Lloyd, ``The serval mesh: A platform for resilient communications in
+  disaster &amp; crisis,'' pp.~162--166, IEEE, 10 2013.
+
+\bibitem{meshrabiya}
+M.~Dawson, ``Meshrabiya ad hoc networking framework.''
+
+\bibitem{bridgefy}
+``Bridgefy,'' 2022.
+
+\bibitem{todtenberg2019}
+N.~Todtenberg and R.~Kraemer, ``A survey on bluetooth multi-hop networks,''
+  {\em Ad Hoc Networks}, vol.~93, 2019.
+
+\bibitem{gunasekara2022}
+K.~Perera, J.~Ranidu, and K.~Gunasekera, ``Towards an adaptive communication
+  framework for smart devices,'' 7 2022.
+
+\bibitem{wsn2021}
+P.~Gburzyński, ``A wsn architecture for building resilient, reactive and
+  secure wireless sensing systems,'' {\em TASK QUARTERLY}, vol.~25,
+  pp.~141--181, 2021.
+
+\bibitem{malar2023}
+A.~C.~J. Malar, R.~Kanmani, M.~D. Priya, G.~Nivedhitha, P.~Divya, and T.~S.~P.
+  Surya, {\em An Infrastructure-Less Communication Platform for Android
+  Smartphones Using Wi-Fi Direct}, pp.~135--145.
+\newblock 2023.
+
+\bibitem{funai2015}
+C.~Funai, C.~Tapparello, and W.~Heinzelman, ``Supporting multi-hop
+  device-to-device networks through wifi direct multi-group networking,'' 12
+  2015.
+
+\bibitem{wifidispec}
+W.-F. Alliance, {\em Wi-Fi Direct® Specification}.
+\newblock WiFi Alliance, 1.9~ed., 2021.
+
+\bibitem{wifiman}
+Google, ``Wifip2pmanager class.''
+
+\end{thebibliography}

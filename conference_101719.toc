@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {I}Glossary of terms}{3}{}%
+\contentsline {section}{\numberline {II}Introduction}{4}{}%
+\contentsline {section}{\numberline {III}Problem Statement}{4}{}%
+\contentsline {section}{\numberline {IV}Research objectives}{5}{}%
+\contentsline {section}{\numberline {V}Literature review}{5}{}%
+\contentsline {section}{\numberline {VI}Methodology}{6}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-A}}Modular Framework}{6}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-B}}Bluetooth and Bluetooth Low Energy}{6}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}1}Bluetooth Classic}{6}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}2}Bluetooth Low Energy}{7}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}3}Neighbor Discovery Process for Meshify}{7}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}4}Routing for Meshify}{7}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-C}}Wifi-Direct}{10}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-C}1}Operation of Wifi-Direct}{10}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-C}2}Group Formation Procedure}{10}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-C}3}Intra-Group Routing}{11}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-C}4}Inter-group routing (Multi-hop Routing)}{11}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-C}5}Android SDK and WiFi Direct}{12}{}%
+\contentsline {section}{\numberline {VII}Research timeline}{13}{}%
+\contentsline {section}{\numberline {VIII}Conclusion}{13}{}%
+\contentsline {section}{References}{13}{}%
