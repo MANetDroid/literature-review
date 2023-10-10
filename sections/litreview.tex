@@ -1,0 +1,133 @@
+\section{Literature review}
+
+The core feature that sets ad hoc networks apart from conventional networks is
+the need for no infrastructure to create and maintain the network. In an ad hoc
+network, the nodes act as network relays, eliminating the need for established
+infrastructure. Due to these factors, ad hoc networks are extensively used in
+sensor networks and other IoT-related domains\cite{akyildiz2002}. Another
+instance where infrastructure-less networks become useful is in times of
+disaster and defense scenarios, where existing infrastructure may be
+unavailable or unreliable. In such cases, ad hoc networks can aid in
+maintaining networks confined to vehicles and other mobility units and can aid
+in critical communications in disaster scenarios, even forming part of a
+corporate data backup system\cite{raza2016}.  However, in recent years,
+consumer use of smartphones skyrocketed. The global smartphone usage is
+estimated to be 6.92 billion, roughly 86\% of the world population in
+2023\cite{zippia2023}. This availability makes smartphones an ideal device for
+consumer-level general-purpose ad hoc networking\cite{soares2017}.
+
+Since the foremost need among users of mobile devices is
+connectivity\cite{chlamtac2003}, mobile devices in self-configured,
+self-maintained networks delivering network connectivity where no connection
+infrastructure is present is highly desirable\cite{chlamtac2003}. Apart from
+intra-network communication, Mobile Ad Hoc Networks can also share internet
+service via an access point, effectively extending the Internet service
+area\cite{chlamtac2003}.
+
+While the use of ad hoc networks for IoT and sensor-based applications is
+well-established, the same implementations can not be applied to consumer
+mobile devices due to limitations imposed by the operating systems and network
+implementations of mobile devices.
+
+\subsection{Ad Hoc Networking Frameworks for Android}
+
+This section aims to establish the current state of the art on Android
+frameworks and implementations aiming to facilitate ad hoc network
+capabilities.
+
+The Serval Project introduces an application that creates self-managed meshable
+networks using the Wi-Fi interfaces of the devices\cite{gardner2013}. The
+Serval system also supports a mesh extender\cite{gardner2013}. This
+air-droppable UHF packet radio extends the mesh network's service range, making
+it suitable for providing stable networks where infrastructure is not present -
+extending the initial use case of disaster management. However, since the
+Serval mesh is a standalone application and is not a framework available to use
+by programmers.
+
+Bluetooth and Bluetooth Low-Energy connectivity are also used to create
+proximity-based communication networks. Wang et al. propose a  framework and a
+proof of concept chat application using Bluetooth and
+Wi-Fi-direct\cite{wang2015}. Since each device carries two unique identifiers
+for Bluetooth and Wi-Fi-direct, the system uses a device serial number for
+identification. The routing is done with a simple flood-based routing protocol,
+and each node reads and floods each received message\cite{wang2015}. Therefore,
+the accompanying proof of concept application does not support private
+messages. Moreover, the framework assumes that Bluetooth master devices and
+WiFi-Direct Group Owners are up and available before the clients are connected.
+Therefore, the framework is not easy to use in real-world scenarios as in
+MANETs due to node mobility, the topology changes rapidly, and in the case of
+WiFi Direct, if the group owner is disconnected, the group will be discarded
+and recreated\cite{raza2016}. The framework proposed by Wang et al. is not
+resilient to these conditions\cite{wang2015}.
+
+Meshrabiya\cite{meshrabiya} is another framework utilizing the core networking
+features of the Android operating system. The framework uses the Wi-Fi Direct
+(WiFiDi) standard to create and maintain an ad hoc network with
+WiFiDi-compliant and legacy devices. The framework achieves this by maintaining
+multiple groups with fully qualified Group Owners and legacy hotspot mode
+devices. For routing, the framework uses the link-local IPV6 addresses.
+However, as mentioned in the framework documentation\cite{meshrabiya}, there are
+limitations in devices running Android versions higher than 11 due to the
+access point concurrency feature. Moreover, since the only communication method
+available in the framework is WiFi, the usability of the framework is reduced.
+Also, another notable factor is that the implementation requires a QR code to
+be scanned for inter-group routing.  A more modular framework where the
+application programmers can select the communication method as needed will
+increase the framework's usability.
+
+Bridgefy\cite{bridgefy} is another framework implemented to be a
+programmer-friendly implementation of mesh networks using Android smartphones.
+While the Bridgefy framework supports iOS and Android devices with universal
+compatibility, the framework only employs Bluetooth as the communication
+technology.
+
+The above findings are summarized in table~\ref{litreviewMatrix} for ease of reference.
+
+As evident by the literature review, there is ample opportunity for developing
+a general application framework that allows programmers to access networks in a
+generalized manner. Since the framework must be application or
+scenario-agnostic, the routing algorithms must be chosen based on a generalized
+mobility model.
+
+\input{table/litreviewMatrix.tex}
+
+\subsection{Routing Protocols}
+
+Proactive routing protocols that seek out nodes and maintain a routing table
+are not suitable for routing ad hoc networks due to the highly mobile nature of
+the nodes. As nodes move in and out of the network coverage area, the network's
+topology is altered, outdating the gathered routing information. Therefore, the
+suitable routing protocols are reactive\cite{reina2011}. Raza et
+al.\cite{raza2016} analyze several different protocols for different network
+traffic and connection types using metrics such as throughput and end-to-end
+delay.
+
+The following sections explain some widely studied routing protocols in ad hoc
+networks.
+
+\subsubsection{Simple Flooding}
+
+Flooding is one of the most basic routing methods used in MANETs since
+broadcast forwarding is the main method of operation in many wireless
+networks\cite{chlamtac2003}. In MANETs, this involves nodes forwarding every
+incoming packet to all the neighbors within its range. However, this is not
+ideal as with the increase of the size of the network, flooding can create
+broadcast storms and decrease network availability\cite{chlamtac2003}.
+
+\subsubsection{Ad hoc Demand Distance Vector (AODV) }
+
+AODV is a reactive routing protocol allowing unicast routing. When a node needs
+to send a packet to another node, it sends an RREQ packet mentioning the
+required destination node\cite{reina2011}. The neighboring nodes forward the
+RREQ packet until it reaches the destination node, and RREP is sent by the
+destination node and is doubled back to the source, enabling the source to
+route the data packet to the destination node\cite{reina2011}.
+
+\subsubsection{Dynamic Source Routing(DSR)}
+
+In DSR, instead of depending on the nodes to handle routing, the complete path
+to the destination node is sent with the RREP packet in the header to the
+source node\cite{chlamtac2003}.
+
+As found by Reina et al. with simulated node mobility models, AODV performs
+better than other routing protocols\cite{reina2011}.

@@ -1,0 +1,67 @@
+\section{Introduction}
+
+For many reasons, the need for communication has become one of the most urgent
+problems in the modern world. Nowadays, smartphones are almost universally used
+as the primary form of communication. As a result, it would be incredible if
+they could communicate when there is no infrastructure since then, people
+wouldn't always be dependent on it. Anytime they want, they can talk.
+Therefore, it has also become more and more essential to communicate
+efficiently in places devoid of infrastructure. There are many well-known
+smartphone chat applications, including WhatsApp, Telegram, Viber, and others;
+nevertheless, they all depend on the internet and the appropriate communication
+infrastructure.
+
+When we say that an infrastructure is available, we mean that base stations or
+access points (such as cellular towers or Wi-Fi routers) exist that the nodes
+can connect to and communicate with. But when it comes to an
+infrastructure-less environment, the nodes don’t have to connect to the
+cellular towers since they establish direct wireless connections. In this case,
+the ability to leverage various infrastructure-free communication protocols is
+referred to as being adaptive. Thus, mobile ad-hoc networks are networks
+created dynamically without the need for infrastructure, presuming that all
+nodes connecting to the network will be portable to some
+extent\cite{chlamtac2003}.
+
+Wi-Fi (in ad-hoc mode) and Bluetooth come out on top regarding available
+infrastructure-less communication methods. Bluetooth is one of the most popular
+short-range wireless technologies for transferring data between devices over
+short distances. It took the place of the conventional cable connections that
+were used to transport data between our regularly used portable gadgets. When
+compared to Wi-Fi, Bluetooth is less expensive and uses less power, but Wi-Fi
+offers more benefits, such as faster speeds and broader transmission ranges.
+Although Wi-Fi's ad hoc mode could handle direct device-to-device (D2D)
+communication without needing an Access Point (AP), it was not generally used
+because of some issues. On the other hand, Wi-Fi Direct (Wi-Fi P2P), which is
+constructed on top of the infrastructure mode of Wi-Fi, enables simple and
+effective D2D communication and lets the devices choose who will take over the
+AP-like functions. Another technology to consider is Bluetooth Low Energy
+(BLE), a development of Bluetooth that significantly reduces battery usage
+because it establishes brief connections and stays in sleep mode when not
+connected.
+
+When putting out a proposal for an infrastructure-less communication solution,
+a few more crucial factors need to be taken into account. Affordable power
+consumption, message transmission dependability, message delays, routing
+mechanism performance in these scenarios, and network establishment speed in
+scenarios without infrastructure are a few of them. The topology of mobile ad
+hoc networks frequently changes due to factors including node mobility and
+unexpected node unavailability.
+Due to this, it is crucial to find appropriate routing methods and neighbor
+identification techniques to increase communication effectiveness in these
+kinds of networks.
+
+Meshify is a framework for infrastructure-less communication using smartphones.
+It is currently equipped only with Bluetooth classic and BLE
+technologies\cite{gunasekara2022}. Implementing Wi-Fi Direct as an additional
+wireless communication technology for Meshify will significantly enhance its
+connectivity capabilities. Wi-Fi Direct offers faster data transfer speeds and
+a more stable connection than Bluetooth, making it ideal for real-time data
+exchange applications, as explained above. This expansion will empower Meshify
+with a versatile and robust communication framework, improving its performance
+and usability. Also, improvements should focus on improving the current Meshify
+neighbor discovery protocol for accurate device detection and multi-hop message
+relaying to extend network reach. Incorporating research from opportunistic
+networks can enhance communication resilience. In addition, the Meshify
+middleware framework should adhere to the best software engineering principles
+and design patterns to ensure that third-party app developers may readily use
+it.
