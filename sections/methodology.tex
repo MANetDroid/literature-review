@@ -361,14 +361,19 @@ inter-group(multi-hop) routing.
 It is vital to test the proposed framework and the applications during and
 after the development process to ensure that the network traffic is handled
 properly at different levels of traffic and mesh scenarios. Morote et al.
-provides a mechanism of testing routing protocols with the open source software
+provide a mechanism for testing routing protocols with the open-source software
 module called Network Simulator 2\cite{morote2010}. The newest version of
 Network Simulator is version 3, commonly known as ns-3\cite{ns3}. Ns-3 is a
-decrete event simulation platform written in C++ and it supports OTcl scripting
-language for modelling node mobility\cite{morote2010}. However, our simulation
+discrete event simulation platform written in C++ and it supports OTcl scripting
+language for modeling node mobility\cite{morote2010}. However, our simulation
 scenario is different from the standard testing scenario for ns-3 due to the
 fact that the routing and other features are handled on the application layer.
-According to ns3 official documentation this is possible\cite{ns3}.
+
+Another simulation platform available is the OMNET++ simulation platform. The
+platform allows simulating nodes and network event behaviors using C++ classes
+and also provides an IDE and a graphical simulator runner\cite{opensim}. We aim to
+use this platform to simulate the framework and test under different mobility
+scenarios.
 
 Therefore, we aim to simulate the framework on the ns3 platform and test under
 different scenarios of node availability and mobility.
@@ -395,3 +400,6 @@ Mobility Models:
     \item Gauss-Markov Mobility Model
     \item Manhattan Grid Model
 \end{itemize}
+
+
+

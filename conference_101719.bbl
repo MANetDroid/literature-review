@@ -26,6 +26,10 @@ I.~Chlamtac, M.~Conti, and J.~J.-N. Liu, ``Mobile ad hoc networking:
   imperatives and challenges,'' \emph{Ad Hoc Networks}, vol.~1, pp. 13--64, 7
   2003.
 
+\bibitem{soares2017}
+E.~Soares, P.~Brandao, R.~Prior, and A.~Aguiar, ``Experimentation with manets
+  of smartphones,'' 2017.
+
 \bibitem{gunasekara2022}
 K.~Perera, J.~Ranidu, and K.~Gunasekera, ``Towards an adaptive communication
   framework for smart devices,'' 7 2022.
@@ -43,10 +47,6 @@ N.~Raza, M.~U. Aftab, M.~Q. Akbar, O.~Ashraf, and M.~Irfan, ``Mobile ad-hoc
 \bibitem{zippia2023}
 Zippia, ``20 vital smartphone usage statistics [2023]: Facts, data, and trends
   on mobile use in the u.s.'' 4 2023.
-
-\bibitem{soares2017}
-E.~Soares, P.~Brandao, R.~Prior, and A.~Aguiar, ``Experimentation with manets
-  of smartphones,'' 2017.
 
 \bibitem{gardner2013}
 P.~Gardner-Stephen, R.~Challans, J.~Lakeman, A.~Bettison, D.~Gardner-Stephen,
@@ -120,5 +120,8 @@ M.~E. Morote, ``Evaluation of manet routing protocols in realistic
 nsnam, ``ns-3 network simulator,'' 7 2008. [Online]. Available:
   \url{https://www.nsnam.org}
 \BIBentrySTDinterwordspacing
+
+\bibitem{opensim}
+O.~Ltd, ``Omnet++,'' 2019.
 
 \end{thebibliography}
