@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {\mbox {V-B}}Routing Protocols}{6}{}%
 \contentsline {subsubsection}{\numberline {\mbox {V-B}1}Simple Flooding}{7}{}%
 \contentsline {subsubsection}{\numberline {\mbox {V-B}2}Ad hoc Demand Distance Vector (AODV) }{7}{}%
-\contentsline {subsubsection}{\numberline {\mbox {V-B}3}Dynamic Source Routing(DSR)}{7}{}%
+\contentsline {subsubsection}{\numberline {\mbox {V-B}3}Dynamic Source Routing (DSR)}{7}{}%
 \contentsline {section}{\numberline {VI}Methodology}{7}{}%
 \contentsline {subsection}{\numberline {\mbox {VI-A}}Modular Framework}{8}{}%
 \contentsline {subsection}{\numberline {\mbox {VI-B}}Bluetooth and Bluetooth Low Energy}{8}{}%
