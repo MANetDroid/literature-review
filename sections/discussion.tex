@@ -25,11 +25,11 @@ SDK\cite{wifiman}.
 
 \paragraph{POC App Implementation}
 
-The POC application sets up a WiFi Direct group and, once the group is
+The POC application sets up a WiFi Direct group, and once the group is
 established, allows sending text messages within the created group, both
 between Group Members and between Group Owner and Group Members.
 
-The figure~\ref{labelewifidipoc} shows a labled interface of the developed POC
+The figure~\ref{labelewifidipoc} shows a labeled interface of the developed POC
 application.
 
 \begin{figure}[htbp]
@@ -102,14 +102,14 @@ possible as demonstrated by the Figures~\ref{clientComm} and~\ref{hostComm}.
     \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth,
             height=0.4\textheight]{imgs/host2client-client.png}
-        \caption{Message is recieved by client.}
+        \caption{Message is received by client.}
         \label{hostComm:c}
     \end{subfigure}
     \caption{Sending messages from Host to Client.}
     \label{hostComm}
 \end{figure}
 
-It is also possible for another device to connect to an already established
+It is also possible for another device to connect to an already-established
 Group. In such a case, the join request will be approved by the Group Owner.
 This is demonstrated by the Figure~\ref{newClient}.
 
@@ -230,7 +230,7 @@ across the following Bluetooth functionalities:
         %\caption{Message is recieved by \texttt{Client 01}.}
         \label{broad:3}
     \end{subfigure}
-    \caption{Three deviced in broadcast messaging.}
+    \caption{Three devices in broadcast messaging.}
     \label{broad}
 \end{figure}
 
@@ -263,7 +263,7 @@ Figure~\ref{broad} demonstrates the broadcast messaging function.
 \subsubsection{Framework Development}
 \begin{itemize}
     \item Integrating WIFI-Direct into the framework.
-    \item Refining the code structure including introducing the TARP protocol
+    \item Refining the code structure, including introducing the TARP protocol
           explicitly.
     \item Publishing the framework library to the Maven repository.
     \item Incorporating Bluetooth Low Energy (BLE) functionality into the test

@@ -1,42 +1,3 @@
-
-\contentsline {section}{\numberline {I}Glossary of terms}{3}{}%
-\contentsline {section}{\numberline {II}Introduction}{4}{}%
-\contentsline {section}{\numberline {III}Problem Statement}{5}{}%
-\contentsline {section}{\numberline {IV}Research Objectives}{5}{}%
-\contentsline {section}{\numberline {V}Literature review}{5}{}%
-\contentsline {subsection}{\numberline {\mbox {V-A}}Ad Hoc Networking Frameworks for Android}{6}{}%
-\contentsline {subsection}{\numberline {\mbox {V-B}}Routing Protocols}{6}{}%
-\contentsline {subsubsection}{\numberline {\mbox {V-B}1}Simple Flooding}{7}{}%
-\contentsline {subsubsection}{\numberline {\mbox {V-B}2}Ad hoc Demand Distance Vector (AODV) }{7}{}%
-\contentsline {subsubsection}{\numberline {\mbox {V-B}3}Dynamic Source Routing (DSR)}{7}{}%
-\contentsline {section}{\numberline {VI}Methodology}{7}{}%
-\contentsline {subsection}{\numberline {\mbox {VI-A}}Modular Framework}{8}{}%
-\contentsline {subsection}{\numberline {\mbox {VI-B}}Bluetooth and Bluetooth Low Energy}{8}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-B}1}Bluetooth Classic}{8}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-B}2}Bluetooth Low Energy}{9}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-B}3}Neighbor Discovery Process for Meshify}{9}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-B}4}Routing for Meshify}{11}{}%
-\contentsline {subsection}{\numberline {\mbox {VI-C}}Wifi-Direct}{12}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-C}1}Operation of Wifi-Direct}{12}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-C}2}Group Formation Procedure}{12}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-C}3}Intra-Group Routing}{13}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-C}4}Inter-group routing (Multi-hop Routing)}{13}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-C}5}Android SDK and WiFi Direct}{14}{}%
-\contentsline {subsection}{\numberline {\mbox {VI-D}}Simulations and Testing}{14}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VI-D}1}Simulation Plan}{15}{}%
-\contentsline {section}{\numberline {VII}Discussion}{15}{}%
-\contentsline {subsection}{\numberline {\mbox {VII-A}}Current Progress}{15}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}1}Network Simulation}{15}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}2}WiFi Direct POC}{15}{}%
-\contentsline {paragraph}{\numberline {\mbox {VII-A}2a}POC App Implementation}{16}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}3}Improving the framework from Meshify}{18}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}4}Test App for Bluetooth and BLE}{18}{}%
-\contentsline {subsection}{\numberline {\mbox {VII-B}}Upcoming Work}{22}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-B}1}Simulation}{22}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-B}2}WiFi Direct POC}{22}{}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-B}3}Framework Development}{22}{}%
-\contentsline {section}{\numberline {VIII}Research timeline}{22}{}%
-\contentsline {section}{References}{24}{}%
 \contentsline {section}{\numberline {I}Introduction}{3}{}%
 \contentsline {section}{\numberline {II}Problem Statement}{4}{}%
 \contentsline {section}{\numberline {III}Research Objectives}{4}{}%
@@ -60,6 +21,17 @@
 \contentsline {subsubsection}{\numberline {\mbox {V-C}4}Inter-group routing (Multi-hop Routing)}{12}{}%
 \contentsline {subsubsection}{\numberline {\mbox {V-C}5}Android SDK and WiFi Direct}{13}{}%
 \contentsline {subsection}{\numberline {\mbox {V-D}}Simulations and Testing}{13}{}%
-\contentsline {section}{\numberline {VI}Research timeline}{14}{}%
-\contentsline {section}{\numberline {VII}Conclusion}{16}{}%
-\contentsline {section}{References}{16}{}%
+\contentsline {subsubsection}{\numberline {\mbox {V-D}1}Simulation Plan}{14}{}%
+\contentsline {section}{\numberline {VI}Discussion}{14}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-A}}Current Progress}{14}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-A}1}Network Simulation}{14}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-A}2}WiFi Direct POC}{14}{}%
+\contentsline {paragraph}{\numberline {\mbox {VI-A}2a}POC App Implementation}{15}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-A}3}Improving the framework from Meshify}{17}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-A}4}Test App for Bluetooth and BLE}{17}{}%
+\contentsline {subsection}{\numberline {\mbox {VI-B}}Upcoming Work}{21}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}1}Simulation}{21}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}2}WiFi Direct POC}{21}{}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}3}Framework Development}{21}{}%
+\contentsline {section}{\numberline {VII}Research timeline}{21}{}%
+\contentsline {section}{References}{23}{}%
